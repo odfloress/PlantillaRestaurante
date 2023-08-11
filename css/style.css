@@ -158,6 +158,7 @@ section{
 
  .conocenos .columna .imagen img{
     width: 100%;
+    height: 40rem;
     border-radius: 10px;
  }
  .conocenos .columna .contenido{
@@ -202,7 +203,7 @@ section{
 
  .menu .caja-contenedor .caja img{
     height: 19rem;
-    width: 87%;
+    width: 100%;
     border-radius: 15px;
  }
 
