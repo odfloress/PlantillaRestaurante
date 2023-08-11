@@ -103,10 +103,6 @@ section{
     margin-left: 2rem;
 }
 
-.header .iconos div:hover{
-    color: rgb(119, 113, 113);
-}
-
 #menu-btn{
     display: none;
 }
