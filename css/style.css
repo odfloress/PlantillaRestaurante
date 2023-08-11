@@ -113,7 +113,8 @@ section{
 /* Fin para Header */
 
 /* ///////  Inicio para Hogar ///////  */
-.hogar{
+.hogar{ 
+    top: 100px;
     min-height: 100vh;
     display: flex;
     align-items: center;
