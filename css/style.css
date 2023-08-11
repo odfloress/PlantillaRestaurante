@@ -349,6 +349,11 @@ section{
         font-size: 1.5rem;
     }
 
+    .menu .caja-contenedor .caja:hover{
+        background: #f1ebeb;
+        transform: scale(1.0);
+    }
+
 }
 
 @media (max-width:450px){
