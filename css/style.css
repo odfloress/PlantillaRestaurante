@@ -1,6 +1,6 @@
 /* Creación  de Variables */
 :root{
-    --main-color: #d3ad7f;
+    --main-color: #b09774;
     --black: #13131a;
     --bg: #fcfcfc;
     --border: .1rem solid rgba(255,255,255,.3);
@@ -52,7 +52,7 @@ section{
     padding: .9rem 3rem;
     font-size: 1.7rem;
     color: #fff;
-    background: var(--main-color);
+    background: #70e045;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -118,7 +118,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.admagazine.com/photos/618a5d11532cae908aaf27ab/master/w_1600%2Cc_limit/96644.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/fondo.png");
     background-size: cover;
     background-position: center;
 }
@@ -207,7 +207,7 @@ section{
  }
 
  .menu .caja-contenedor .caja h3{
-    color: var(--main-color);
+    color: #d37f7f;
     font-size: 2rem;
     padding: 1rem 0;
  }
