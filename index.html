@@ -8,6 +8,7 @@
     <script src="./iconos/font-awesome-5.js"></script>
     <script src="./iconos/iconos.js"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 </head>
 <body>
      <!-- header section Inicio -->
@@ -195,5 +196,18 @@
       <!-- Contactanos section Fin -->
 
     <script src="./js/complemento1.js"></script>
+
+
+    <script>
+        //  INICIO PARA OCULTAR EL SIDEBAR AL SER click en contenido
+
+        $(document).click(function(){
+            objeto = $(".header");
+            if(!objeto.is(event.target) && !objeto.has(event.target).length){
+                $(".navbar").removeClass('active')
+            }
+        });
+        // <!-- FIN PARA OCULTAR EL SIDEBAR AL SER click en contenido-->
+    </script>
 </body>
 </html>
